@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Montserrat+Alternates:wght@600&family=Roboto:wght@100&family=Rubik+Burned&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    /*font-family: 'Roboto', sans-serif;
+    font-weight: bold;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(../src/img/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

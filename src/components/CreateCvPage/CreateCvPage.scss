@@ -1,0 +1,137 @@
+.createCv{
+    width: 80%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin : 0 auto;
+    margin-top: 80px;
+
+    .createCvImg{
+        width: 100%;
+        max-width: 400px;
+        margin : 0 auto;
+        margin-right: 0;
+
+        &>img{
+            height:585px;
+        }
+    }
+
+    .createCvDv{
+        width: 100%;
+        max-width: 500px;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-left: 0;
+        background-color: rgba(206, 245, 255, 0.5);
+        border: 1px solid transparent;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 15px 0px;
+        font-size: 18px;
+    
+        &>input, &>button{
+            width: 350px;
+            height: 40px;
+            margin: 0 auto;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        &>input:hover,&>input:visited,&>input:focus-visible,&>input:focus-within,&>input:focus {
+            border:2px solid rgba(108, 40, 42, 0.8) !important; 
+        }
+        &>button{
+            background-color: rgba(253, 135, 139, 0.5);
+            color: white;
+    
+            &:hover{
+                background-color: rgba(253, 135, 139, 0.8);
+            }
+        }
+    }
+}
+
+@media only screen and ( max-width: 1139px) {
+    .createCv{
+        width: 100%;
+        height:auto;
+        display: initial;
+        margin: 50px;
+
+        .createCvImg{
+            width: 500px;
+            margin : 0 auto;
+            margin-top: 50px;
+    
+            &>img{
+                width: 100%;
+                max-width: 500px;
+                margin : 0 auto;
+                height:auto;
+            }
+        }
+
+        .createCvDv{
+            width: 95%;
+            max-width:400px;
+            margin: 0 auto;
+            border: 1px solid transparent;
+            margin-bottom: 50px;
+            border-radius: 5px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            &>input, &>button{
+                width: 300px;
+                height: 30px;
+                margin: 0 auto;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .createCv{
+        width: 100%;
+        height:auto;
+        display: initial;
+        margin: 50px;
+
+        .createCvImg{
+            width: 350px;
+            margin : 0 auto;
+            margin-top: 50px;
+    
+            &>img{
+                width: 350px;
+                margin : 0 auto;
+                height:auto;
+            }
+        }
+
+        .createCvDv{
+            width: 95%;
+            max-width:350px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            border-radius: 5px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            &>input, &>button{
+                width: 250px;
+                height: 30px;
+                margin: 0 auto;
+                border: 1px solid transparent;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

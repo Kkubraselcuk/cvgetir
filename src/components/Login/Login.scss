@@ -1,0 +1,128 @@
+
+.personSignIn{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 80px;
+
+    &>button{
+        width: 45%;
+        height: 30px;
+        font-size: 18px;
+        margin-right: 10px;
+        border: 1px solid transparent;
+        border-radius: 3px;
+        background-color: rgba(248, 195, 148, 0.6);
+        //background-color: rgba(163, 198, 245, 0.6);
+        color: white;
+
+        &:hover{
+            background-color: rgba(248, 195, 148, 0.9);
+        }
+    }
+}
+
+.loginDv{
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 50px;
+    background-color: rgba(151, 190, 242, 0.6);
+    //background-color: rgba(130, 140, 154, 0.5);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    &>.loginDvComment{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    &>.loginDvTitle{
+        width: 100%;
+        max-width: 110px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        padding: 3px;
+        border: 1px solid white;
+        color: white;
+        background-color:transparent;
+        font-size: 20px;
+    }
+    &>.inputDv{
+        margin-top: 10px;
+
+        &>img{
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            margin-top: -6px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            background-color: rgba(50, 63, 47, 0.5)
+        }
+        &>input{
+            width: 80%;
+            max-width: 250px;
+            height: 40px;
+            margin: 0 auto;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+    }
+    
+
+    &>button{
+        width: 90%;
+        max-width: 250px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        font-size: 18px;
+        background-color: rgba(253, 135, 139, 0.5);
+        color: white;
+
+        &:hover{
+            background-color: rgba(253, 135, 139, 0.8);
+        }
+    }
+}
+
+.personelSignUp{
+    
+    width: 95%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    background-color: rgba(35, 48, 65, 0.5);
+    //background-color: rgba(50, 80, 104, 0.5);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+    &>button{
+        width: 90%;
+        max-width: 250px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        font-size: 18px;
+        background-color: rgba(173, 251, 190, 0.5);
+        color: white;
+
+        &:hover{
+            background-color: rgba(173, 251, 190, 0.8);
+        }
+    }
+}
